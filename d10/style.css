@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 820px;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(2, 146, 2), rgb(2, 97, 2), rgba(2, 41, 7, 0.932));
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+#principal {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#subprincipal {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: auto;
+    padding: auto;
+    height: 100px;
+    width: 400px;
+    font-size: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    margin: 3px;
+}
+
+.titulos {
+    font-family: 'idroid', Times, serif;
+    font-weight:normal;
+    color: green;
+}
+
+.subtitulos {
+    font-family: 'idroid', Times, serif;
+    background-image: linear-gradient(to right, #C5EBD6, #cdeddcbf, #dcf6e788, #f5f8f69e);
+    font-weight:normal;
+    text-indent: 15px;
+    color: green;
+}
+
+p {
+    text-indent: 28px;
+    margin: 10px;
+    padding: 8px;
+    line-height: 1.5;
+}
+
+.img_robo {
+    text-align: center;
+}
+
+.video {
+    background-color: rgb(1, 71, 1);
+    text-align: center;
+    padding: 20px;
+    margin: -10px;
+}
+
+.titulo_box {
+    background-color: rgb(48, 177, 48);
+    text-indent: 0%;
+    color: white;
+    border-radius: 6px 6px 0px 0px;
+    font-weight: bold;
+    padding: 10px;
+    margin: -9px;
+    
+}
+
+.box {
+    background-color: rgb(200, 246, 217);
+    border-radius: 10px;
+    width: 750px;
+    padding: 8px;
+    margin: 18px;
+}
+
+.box > p {
+    margin-right: ;
+}
+
+.lista{
+    columns: 2;
+    margin-left: 0px;
+    padding-left: 30px;
+}
+
+footer > p {
+    background-color: rgb(1, 71, 1);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 1px 0px;
+    margin: 10px auto;
+}
+
+
