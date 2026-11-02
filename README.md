@@ -1,2 +1,2 @@
 # Projetos-HTML-e-CSS
-Alguns projetos desenvolvidos em HTML e CSS para aprendizado
+Repositório criado para reunir alguns projetos que desenvolvi durante cursos e estudos de HTML e CSS.
